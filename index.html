@@ -136,6 +136,100 @@
         color: gold; /* Icon color */
         font-size: 18px; /* Icon size */
     }
+
+    /* Contact Form Styles */
+#contact {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    border-color: #0066cc;
+    outline: none;
+}
+
+.submit-btn {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #004d99;
+    transition: background-color 0.3s ease;
+}
+
+/* Icons */
+label i {
+    color: #0066cc;
+    margin-right: 5px;
+}
+
+ #history {
+            padding: 20px;
+            background-color: #f9f9f9;
+            max-width: 800px;
+            margin: auto;
+        }
+        #history h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .submission-item {
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background-color: #f1f1f1;
+        }
+        .submission-item h4 {
+            color: #0066cc;
+        }
+
+
+
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -160,9 +254,11 @@
         <a href="#" onclick="showPage('home')">Home</a>
         <a href="#" onclick="showPage('home')">Home</a>
         <a href="#" onclick="showPage('about')">About</a>
-        <a href="#" onclick="showPage('contact')">Contact</a>
         <a href="#" onclick="showPage('courses')">Courses</a>
         <a href="#" onclick="showPage('gallery')">Gallery</a>
+        <a href="#" onclick="showPage('contact')">Contact</a>
+        <a href="#" onclick="showPage('history')">Submission History</a>
+
     </nav>
 
     <!-- Main Content -->
@@ -180,33 +276,85 @@
             <h3>>>Online Ragistration Form</h3>
              <h3>>>Digital Magazine-Kinshuk</h3>
               <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-        
+          
+       <img src="https://raw.githubusercontent.com/samirxz/images-/main/principel.png" alt="Sample Image 6" style="width: 100%; height: 100%; object-fit: cover;">
         <img src="https://theindianschool.in/uploads/2018/09/1.png" alt="Sample Image 1" style="width: 400px; height: 400px; object-fit: cover;">
         <img src="https://images.pexels.com/photos/28389291/pexels-photo-28389291/free-photo-of-indian-school-boys-in-uniform-at-assembly-event.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sample Image 1" style="width: 400px; height: 800px; object-fit: cover;">
     </div>
     <h3>  The School serves the best as Educational Institute</h3>
-    <p>Subodh Public School, Jaipur, a Senior Secondary English medium co-educational school, affiliated to the Central Board of Secondary Education, New Delhi, started in the year 1985 under the aegis of Shri S.S. Jain Subodh Shiksha Samiti. This is to be a 35 year old school in the following year with the present strength of 3000 students and 150 teachers. The students are prepared to write the CBSE examination in Science, Commerce and Humanities.</p>
-   <p class="work-section"><i class="fa-regular fa-star"></i> ITS OUR WORK</p>
+    <p>Subodh Public School stands as a beacon of academic brilliance and holistic development in the educational landscape. Situated in the heart of the city, this institution has been nurturing young minds for decades, providing a world-class education combined with values that transcend the classroom. As one of the leading educational institutions in the region, Subodh Public School is dedicated to empowering students to achieve their full potential, equipping them with the skills and knowledge necessary for success in the modern world.
+
+A Legacy of Excellence
+
+Founded with a vision to create a space where every student can excel academically, personally, and socially, Subodh Public School has built a solid reputation for excellence in both academic and extracurricular fields. The school is affiliated with a renowned educational board, ensuring that the curriculum meets the highest standards of education. Every year, students of Subodh Public School secure remarkable results in board exams and competitive tests, making it one of the top choices for parents seeking quality education for their children.
+
+State-of-the-Art Infrastructure
+
+At Subodh Public School, education is not confined to textbooks alone. The campus is equipped with state-of-the-art infrastructure, including modern classrooms, science and computer labs, libraries, sports facilities, and a dedicated art and music room. The school’s architecture is designed to inspire creativity and learning, offering students an environment that is both conducive to studying and enjoyable. The well-equipped sports complex promotes a healthy lifestyle, while the artistic and cultural facilities give students the freedom to explore their talents beyond academics.
+
+Experienced Faculty and Personalized Attention
+
+The strength of any educational institution lies in the caliber of its educators. Subodh Public School prides itself on having a team of highly qualified, experienced, and passionate teachers who are committed to bringing out the best in their students. With a low student-teacher ratio, the school ensures that each student receives personalized attention and mentorship. Teachers at Subodh Public School not only impart academic knowledge but also focus on the all-around development of the child. Whether it is helping students improve their problem-solving skills, encouraging creativity, or providing career guidance, the faculty members are always ready to support the students in their learning journey.</p>
+   
+   <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+      
+        <img src="https://images.pexels.com/photos/11366728/pexels-photo-11366728.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sample Image 1" style="width: 100%; height: 100%; object-fit: cover;">
+        <img src="https://media.istockphoto.com/id/1351416161/photo/female-teachers-teaching-students-in-library-at-school.jpg?s=2048x2048&w=is&k=20&c=XtxeVVinqXJlCXgfNN6v-rFM0jR_LO0hUXC1qwNjvjA=" alt="Sample Image 1" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
 
             
         </section>
 
         <!-- About Page -->
         <section id="about">
-            <h2>About Us</h2>
-            <p>We are a team of professionals dedicated to providing the best services and experiences for our users.</p>
+          
+            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+      
+        <img src="https://media.istockphoto.com/id/1400739452/vector/about-us-web-header-design-icon-interconnected-symbol-of-company-profile-corporate.jpg?s=612x612&w=0&k=20&c=-zgp-xnEqh8zBEjNajlPZmDF5PXuqlXVUu7RjBf_UGU=" alt="Sample Image 1" style="width: 100%; height: 100%; object-fit: cover;">
+
+    </div>
+      <h2>About Us</h2>
+            <p>Welcome to Subodh Public School, a beacon of knowledge and excellence, where we are dedicated to shaping young minds into future leaders. Established with a vision to provide world-class education, our institution prides itself on blending traditional values with modern pedagogy, creating a nurturing environment where every student can thrive academically, socially, and emotionally.</p>
+
+<p>At Subodh Public School, we believe that education goes beyond textbooks. Our state-of-the-art infrastructure, experienced faculty, and innovative teaching methods empower students to unlock their full potential. From academics to extracurricular activities, we strive to instill critical thinking, creativity, and a lifelong love for learning.</p>
+
+<p>Our curriculum is designed to cater to the diverse needs of 21st-century learners, emphasizing academic excellence, leadership skills, and holistic development. Whether it's excelling in science and technology, exploring artistic passions, or engaging in sports, we encourage our students to pursue their dreams with confidence and determination.</p>
+
+<p>Community is at the heart of everything we do. We foster a culture of inclusivity, respect, and empathy, preparing our students to become responsible global citizens. Our strong focus on moral values ensures that each child grows into an individual of character, integrity, and compassion.</p>
+
+<p>Join us at Subodh Public School, where education is a journey of discovery, growth, and achievement. Together, let's pave the way for a brighter, more promising future!</p>
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+      
+        <img src="https://raw.githubusercontent.com/samirxz/images-/main/map.png" alt="Map" style="width: 100%; height: auto; object-fit: cover;">
+
+    </div>
         </section>
 
         <!-- Contact Page -->
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Feel free to reach out to us for any inquiries or feedback:</p>
-            <ul>
-                <li>Email: support@example.com</li>
-                <li>Phone: +123 456 7890</li>
-                <li>Address: 123 Main Street, Anytown, USA</li>
-            </ul>
-        </section>
+       <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Feel free to reach out to us with any questions or feedback:</p>
+    <form id="contact-form">
+        <div class="form-group">
+            <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="email"><i class="fa-solid fa-envelope"></i> Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone"><i class="fa-solid fa-phone"></i> Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+        </div>
+        <div class="form-group">
+            <label for="message"><i class="fa-solid fa-comment"></i> Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+</section>
+
 
         <!-- Courses Page -->
         <section id="courses">
@@ -233,12 +381,20 @@
          <img src="https://images.pexels.com/photos/14152040/pexels-photo-14152040.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sample Image 6" style="width: 150px; height: 100px; object-fit: cover;">
     </div>
         </section>
+
+        <!-- Submission History Page -->
+<section id="history">
+    <h2>Submission History</h2>
+    <div id="history-list"></div> <!-- This will hold the submission history -->
+</section>
+
+
     </main>
 
     <!-- Footer -->
     
     <script>
-        // Preloader logic
+    // Preloader logic
 window.addEventListener('load', function () {
     const preloader = document.getElementById('preloader');
     setTimeout(() => {
@@ -264,6 +420,73 @@ function showPage(pageId) {
     });
     document.getElementById(pageId).classList.add('active');
     drawer.classList.remove('open');
+}
+
+// Initialize submission history
+const submissionHistory = [];
+
+// Handle Form Submission
+const form = document.getElementById('contact-form');
+form.addEventListener('submit', function (e) {
+    e.preventDefault(); // Prevent the form from submitting to a server
+
+    // Get form data
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const message = document.getElementById('message').value;
+
+    // Store submission
+    submissionHistory.push({
+        name,
+        email,
+        phone,
+        message
+    });
+
+    // Show success message
+    alert('Your message has been sent successfully!');
+
+    // Reset form fields
+    form.reset();
+});
+
+// Show Submission History
+function showSubmissionHistory() {
+    const historyList = document.getElementById('history-list');
+    historyList.innerHTML = ''; // Clear previous history
+    if (submissionHistory.length === 0) {
+        historyList.innerHTML = '<p>No submissions yet.</p>';
+    } else {
+        submissionHistory.forEach((submission, index) => {
+            const div = document.createElement('div');
+            div.classList.add('submission-item');
+            div.innerHTML = `
+                <h4>Submission #${index + 1}</h4>
+                <p><strong>Name:</strong> ${submission.name}</p>
+                <p><strong>Email:</strong> ${submission.email}</p>
+                <p><strong>Phone:</strong> ${submission.phone}</p>
+                <p><strong>Message:</strong> ${submission.message}</p>
+                <hr>
+            `;
+            historyList.appendChild(div);
+        });
+    }
+}
+
+// Show Page Function with History
+function showPage(pageId) {
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+        section.classList.remove('active');
+    });
+    document.getElementById(pageId).classList.add('active');
+    drawer.classList.remove('open');
+
+    // If the page is the history page, display submission history
+    if (pageId === 'history') {
+        showSubmissionHistory(); // Show history when the page is accessed
+    }
 }
 
     </script>
